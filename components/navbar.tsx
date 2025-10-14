@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import NavItems from "./NavItems";
 
-const navbar = () => {
+const Navbar = () => {
   return (
     <nav className="navbar">
       <Link href="/">
@@ -18,4 +18,4 @@ const navbar = () => {
   );
 };
 
-export default navbar;
+export default Navbar;
