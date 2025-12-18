@@ -1,4 +1,3 @@
-export const dynamic = "force-dynamic";
 import CompanionForm from "@/components/CompanionForm";
 import { newCompanionPermissions } from "@/lib/actions/companion.actions";
 import { auth } from "@clerk/nextjs/server";
