@@ -1,4 +1,5 @@
 "use server";
+export const dynamic = "force-dynamic";
 import { auth } from "@clerk/nextjs/server";
 import { createSupabaseClient } from "../supabase";
 import { revalidatePath } from "next/cache";
